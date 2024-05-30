@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f3f3f3;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333
+            ;
+        }
+
+        nav {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff7f50;
+        }
+
+        .header {
+            text-align: center;
+            padding: 100px 0;
+            background-image: url('images/header-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: black;
+        }
+
+        .main-content {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .main-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .main-content img {
+            width: 200px;
+            border-radius: 50%;
+            margin-bottom: 30px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        @media (min-width: 768px) {
+            .header {
+                padding: 150px 0;
+            }
+
+            .main-content {
+                padding: 100px 20px;
+            }
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Prem's Portfolio</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="languages.html">Languages</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header">
+            <div class="container">
+                <h1>Hi! I'm Prem Chavan</h1>
+                <p>A Web Developer</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main-content">
+            <div class="container">
+                <h2>About Me</h2>
+                <img src="images/IMG_4145.JPG" alt="">
+                <p>
+                    Greetings! I'm Prem Chavan, an enthusiastic and dedicated student currently pursuing my TYBBA
+                    (Bachelor of Business Administration in Computer Application) degree at Prof. Ramkrishna More
+                    College, Akurdi. With a passion for technology and a drive for excellence, I am poised to make a
+                    significant impact in the field of computer applications and beyond.</p>
+                <p>I am currently in the final year of my undergraduate studies, specializing in Computer Application.
+                    Throughout my academic journey, I have demonstrated a strong commitment to academic excellence. My
+                    educational background has equipped me with a robust understanding of programming languages,
+                    database management, software development for success in the rapidly evolving tech industry.</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

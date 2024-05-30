@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            height: 80px;
+        }
+        nav ul li a:hover {
+            color: #ff7f50;
+        }
+
+        nav .left {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        #infographic {
+            width: 100%;
+            height: auto;
+        }
+
+        .animated {
+            animation: fadeInUp 1s ease-in-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="left">Contacts</div>
+        <div class="right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="languages.html">Languages Known</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <svg id="infographic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+        <text x="50" y="50" class="animated">Name: Prem Chavan</text>
+        <text x="50" y="80" class="animated">Email: chavanprem745@gmail.com</text>
+        <text x="50" y="110" class="animated">Phone: +91 8551836144</text>
+        <!-- Add more text elements for additional project details -->
+    </svg>
+    
+</body>
+
+</html>
